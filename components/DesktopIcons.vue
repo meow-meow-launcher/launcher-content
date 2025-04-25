@@ -9,14 +9,17 @@
     </div>
   </template>
   
-  <script setup>
-  const icons = [
-    { label: 'Правила', to: '/rules', icon: '/launcher-content/icons/book.png' },
-    { label: 'Сервер', to: '/server', icon: '/launcher-content/icons/folder.png' },
-    { label: 'Мой компьютер', to: '/', icon: '/launcher-content/icons/computer.png' },
-    { label: 'Лаунчер', to: '/launcher', icon: '/launcher-content/icons/disket.png'}
-  ]
-  </script>
+<script setup>
+const config = useRuntimeConfig()
+const base = config.app.baseURL
+
+const icons = [
+  { label: 'Правила', to: '/rules', icon: `${base}icons/book.png` },
+  { label: 'Сервер', to: '/server', icon: `${base}icons/folder.png` },
+  { label: 'Мой компьютер', to: '/', icon: `${base}icons/computer.png` },
+  { label: 'Лаунчер', to: '/launcher', icon: `${base}icons/disket.png` }
+]
+</script>
   
   <style scoped>
   .desktop-icons {
