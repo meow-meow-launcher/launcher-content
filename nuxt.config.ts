@@ -7,7 +7,13 @@ export default defineNuxtConfig({
   ssr: false,
   target: 'static',
   app: {
-    baseURL: '/launcher-content/telegram/'
+    baseURL: '/telega-site/'
+  },
+  
+  nitro: {
+    output: {
+      publicDir: 'telega-site'
+    }
   },
 
   modules: [

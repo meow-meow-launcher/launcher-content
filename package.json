@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "gh-pages -d telegram"
+    "deploy": "pnpm generate && gh-pages -d telega-site -r https://github.com/meow-meow-launcher/telega-site1.git"
   },
   "dependencies": {
     "@nuxt/icon": "1.12.0",
@@ -26,5 +26,9 @@
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.16",
     "gh-pages": "^6.3.0"
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/meow-meow-launcher/telega-site.git"
   }
 }

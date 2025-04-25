@@ -1,0 +1,1 @@
+import{i as e}from"./C4IQEttf.js";import{r as i,l as u}from"./BH4CL5cc.js";function f(t){const r=e({nonce:i()});return u(()=>{var o;return(t==null?void 0:t.value)||((o=r.nonce)==null?void 0:o.value)})}export{f as u};

@@ -1,0 +1,1 @@
+import{Y as i,l as a,H as u}from"./BH4CL5cc.js";const s=Symbol("nuxt-ui.avatar-group");function r(t){const e=i(s,void 0),o=a(()=>t.size??(e==null?void 0:e.value.size));return u(s,a(()=>({size:o.value}))),{size:o}}export{s as a,r as u};
