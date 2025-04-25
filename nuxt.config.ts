@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   ssr: false,
   target: 'static',
   app: {
-    baseURL: '/telega-site/'
+    baseURL: '/launcher-content/'
   },
   
   nitro: {
