@@ -1,1 +1,0 @@
-import{Y as l,l as o,H as s}from"./BH4CL5cc.js";const u=Symbol("nuxt-ui.portal-target");function i(e){const a=l(u,void 0),t=o(()=>typeof e.value=="boolean"||e.value===void 0?(a==null?void 0:a.value)??"body":e.value),n=o(()=>typeof e.value=="boolean"?!e.value:!1);return s(u,o(()=>t.value)),o(()=>({to:t.value,disabled:n.value}))}export{u as p,i as u};
