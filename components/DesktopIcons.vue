@@ -11,10 +11,10 @@
   
   <script setup>
   const icons = [
-    { label: 'Правила', to: '/rules', icon: '/icons/book.png' },
-    { label: 'Сервер', to: '/server', icon: '/icons/folder.png' },
-    { label: 'Мой компьютер', to: '/', icon: '/icons/computer.png' },
-    { label: 'Лаунчер', to: '/launcher', icon: '/icons/disket.png'}
+    { label: 'Правила', to: '/rules', icon: '/launcher-content/icons/book.png' },
+    { label: 'Сервер', to: '/server', icon: '/launcher-content/icons/folder.png' },
+    { label: 'Мой компьютер', to: '/', icon: '/launcher-content/icons/computer.png' },
+    { label: 'Лаунчер', to: '/launcher', icon: '/launcher-content/icons/disket.png'}
   ]
   </script>
   
