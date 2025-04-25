@@ -10,8 +10,7 @@
   </template>
   
 <script setup>
-const config = useRuntimeConfig()
-const base = config.app.baseURL
+const base = useRuntimeConfig().app.baseURL
 
 const icons = [
   { label: 'Правила', to: '/rules', icon: `${base}icons/book.png` },
