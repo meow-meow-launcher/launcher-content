@@ -17,7 +17,7 @@
             <td><code>http://postthismiaumiaueveryweek.falixsrv.me:21352</code></td>
           </tr>
           <tr>
-            <td>🌐 Telegram</td>
+            <td class="label">🌐 Telegram</td>
             <td><code>https://t.me/+aQVW-3gJF6IyOTk6</code></td>
           </tr>
           <tr>
