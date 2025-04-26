@@ -17,6 +17,10 @@
             <td><code>http://postthismiaumiaueveryweek.falixsrv.me:21352</code></td>
           </tr>
           <tr>
+            <td>🌐 Telegram</td>
+            <td><code>https://t.me/+aQVW-3gJF6IyOTk6</code></td>
+          </tr>
+          <tr>
             <td class="label">📦 Версия</td>
             <td>1.19.2 [Forge 43.5.0]</td>
           </tr>
